@@ -71,29 +71,24 @@ In scenarios such as missions where audio communication may not be feasible, thi
 
 ## Images
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    .image-row {
-      display: flex;
-      justify-content: space-around;
-      align-items: flex-start;
-    }
-    .image-container {
-      text-align: center;
-    }
-    .image-container img {
-      max-height: 200px;
-      width: auto;
-      height: auto;
-      max-width: 100%;
-    }
-  </style>
-</head>
-<body>
+<style>
+.image-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.image-container {
+  text-align: center;
+  margin: 10px;
+}
+.image-container img {
+  max-height: 200px;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+}
+</style>
 
 <div class="image-row">
   <div class="image-container">
@@ -114,9 +109,6 @@ In scenarios such as missions where audio communication may not be feasible, thi
   <img src="https://raw.githubusercontent.com/x3beche/PIC16F877A-Audio-Transmitter/main/images/software.png" alt="Software Interface">
   <p><b>Description:</b> Screenshot of the software interface used to interact with the PCB.</p>
 </div>
-
-</body>
-</html>
 
 
 
