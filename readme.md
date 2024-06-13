@@ -71,48 +71,15 @@ In scenarios such as missions where audio communication may not be feasible, thi
 
 ## Images
 
-<!-- Add custom CSS within a <style> tag -->
-<style>
-.image-row {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-.image-container {
-  text-align: center;
-  margin: 10px;
-}
-.image-container img {
-  max-height: 200px;
-  height: auto;
-  width: auto;
-  max-width: 100%;
-}
-</style>
+| PCB Mounted | PCB Schematic | PCB Layout |
+|-------------|---------------|------------|
+| <img src="https://raw.githubusercontent.com/x3beche/PIC16F877A-Audio-Transmitter/main/images/pcb_mounted.jpg"> | <img src="https://raw.githubusercontent.com/x3beche/PIC16F877A-Audio-Transmitter/main/images/pcb_schematic.png"> | <img src="https://raw.githubusercontent.com/x3beche/PIC16F877A-Audio-Transmitter/main/images/pcb.png"> |
+| **Description:** Image showing a physical PCB mounted with components. | **Description:** Schematic diagram of the PCB layout. | **Description:** Detailed layout design of the PCB including traces and components placement. |
 
-<!-- Create a row of images with descriptions -->
-<div class="image-row">
-  <div class="image-container">
-    <img src="https://raw.githubusercontent.com/x3beche/PIC16F877A-Audio-Transmitter/main/images/pcb_mounted.jpg" alt="PCB Mounted">
-    <p><b>Description:</b> Image showing a physical PCB mounted with components.</p>
-  </div>
-  <div class="image-container">
-    <img src="https://raw.githubusercontent.com/x3beche/PIC16F877A-Audio-Transmitter/main/images/pcb_schematic.png" alt="PCB Schematic">
-    <p><b>Description:</b> Schematic diagram of the PCB layout.</p>
-  </div>
-  <div class="image-container">
-    <img src="https://raw.githubusercontent.com/x3beche/PIC16F877A-Audio-Transmitter/main/images/pcb.png" alt="PCB Layout">
-    <p><b>Description:</b> Detailed layout design of the PCB including traces and components placement.</p>
-  </div>
-</div>
-
-<!-- Add the fourth image with its description -->
-<div class="image-container">
-  <img src="https://raw.githubusercontent.com/x3beche/PIC16F877A-Audio-Transmitter/main/images/software.png" alt="Software Interface">
-  <p><b>Description:</b> Screenshot of the software interface used to interact with the PCB.</p>
-</div>
-
+| Software Interface |
+|--------------------|
+| <img src="https://raw.githubusercontent.com/x3beche/PIC16F877A-Audio-Transmitter/main/images/software.png"> |
+| **Description:** Screenshot of the software interface used to interact with the Hardware. |
 
 
 
