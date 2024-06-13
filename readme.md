@@ -71,6 +71,7 @@ In scenarios such as missions where audio communication may not be feasible, thi
 
 ## Images
 
+<!-- Add custom CSS within a <style> tag -->
 <style>
 .image-row {
   display: flex;
@@ -90,6 +91,7 @@ In scenarios such as missions where audio communication may not be feasible, thi
 }
 </style>
 
+<!-- Create a row of images with descriptions -->
 <div class="image-row">
   <div class="image-container">
     <img src="https://raw.githubusercontent.com/x3beche/PIC16F877A-Audio-Transmitter/main/images/pcb_mounted.jpg" alt="PCB Mounted">
@@ -105,10 +107,12 @@ In scenarios such as missions where audio communication may not be feasible, thi
   </div>
 </div>
 
+<!-- Add the fourth image with its description -->
 <div class="image-container">
   <img src="https://raw.githubusercontent.com/x3beche/PIC16F877A-Audio-Transmitter/main/images/software.png" alt="Software Interface">
   <p><b>Description:</b> Screenshot of the software interface used to interact with the PCB.</p>
 </div>
+
 
 
 
